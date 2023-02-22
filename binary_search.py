@@ -35,7 +35,7 @@ def find_smallest_positive(xs):
                 return left
             else:
                 return None
-        mid = (left + right)//2
+        mid = (left + right) // 2
         if xs[mid] > 0:
             right = mid
         if xs[mid] < 0:
